@@ -58,6 +58,6 @@ for i in range(len(axe[0])):
         tmp.append(v[i])
     axe_t.append(tmp)
 print(axe_t)
-draw.draw(axe_t[0], axe_t[1])
+draw(axe_t[0], axe_t[1])
 
 input("[Enter]キーを押してください")
