@@ -11,8 +11,3 @@ def draw(x, y):
     axe2.plot(x, color="red", marker="o")
     axe2.plot(y, color="blue", marker="o")
     plot.show()
-
-
-x = [0, 1, 2, 3]
-y = [3, 2, 1, 0]
-draw(x, y)
